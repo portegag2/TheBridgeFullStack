@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+</head>
+<body>
+  <h1>Contactame</h1>
+
+  <form>    
+    <fieldset>
+      <legend>Tú:</legend>
+      <label for="fname">Nombre:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Apellido:</label>
+      <input type="text" id="lname" name="lname"><br><br>      
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday"><br><br>
+      <input type="radio" value="V" id="varon" name="sexo"><label for="sexo">V</label><input type="radio" value="M" id="mujer" name="sexo"><label for="sexo">M</label><br><br>
+      <input type="checkbox" value="sí" id="consentimiento"><label for="consentimiento">Doy mi consentimiento</label><br><br>
+      
+      <label for="niv-conocimiento">Nivel conocimiento:</label>
+      <select id='niv-conocimiento'>
+        <option value="value1">basico</option>
+        <option value="medio" selected>medio</option>
+        <option value="experto">experto</option>
+      </select><br><br>
+      
+      <label for="comentarios">Escribe algo sobre tí:</label>
+      <textarea id="comentarios"></textarea><br><br>
+
+    </fieldset>
+    <fieldset>
+      <legend>Información de contacto:</legend>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono"><br><br>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Borrar información">
+  </fieldset>  </form>
+  <hr
+  <h1>Los ladronzuelos de bicicletas</h1>
+
+  <form>    
+      <label for="dia">Dia:</label>
+      <input type="date" id="dia" name="dia"><br><br>
+      <label for="hora">Hora:</label>
+      <input type="time" id="hora" name="hora"><br><br>
+      <label for="color">Color:</label>
+      <input type="color" id="color" name="color"><br><br>   
+      <label for="precio">Rango Precio:</label>
+      <input type="range" min="100" value="400" max="10000" id="precio" name="precio" oninput="this.nextElementSibling.value = this.value"><output>400</output><br><br>   
+      <label for="tipo-bici">Tipo bicicleta:</label>
+      <select id="tipo-bici">
+        <optgroup label="Paseo">
+          <option value="1">Señorial</option>
+          <option value="2">Anti-plebeyos</option>
+        </optgroup>
+        <optgroup label="Montaña">
+          <option value="3">Gamusinos</option>
+          <option value="4">Opción 4</option>
+          <option value="5">Fango lover</option>
+        </optgroup>
+      </select><br><br>
+      <label for="accesorios">Accesorios:</label>
+      <select multiple id="accesorios" name="accesorios">
+        <option value="1">Ruedines</option>
+        <option value="2">Pegatinas</option>
+        <option value="3">Cestita</option>
+        <option value="4">Timbre</option>
+      </select><br><br>
+      <label for="marca">Marca:</label>
+      <input type="text" list="marcas">
+      <datalist id="marcas">
+        <option value="specialized">specialized</option>
+        <option value="trek">trek</option>
+        <option value="merida">merida</option>
+        <option value="scott">scott</option>
+      </datalist>
+
+  </form>
+  <a href="./index.html">Pagina inicio</a>
+<script src="./js/pruebas.js"></script>
+</body>
+</html>

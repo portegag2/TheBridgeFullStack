@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikram Objetos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/boot.min.js"></script>
+    <script src="JS/objects.js"></script>
+    <script src="index.js"></script>
+    <script src="JS/index.spec.js"></script>
+</head>
+<body>
+    <h1>Pruebas de objetos</h1>
+    <div id="test"></div>
+    <script>
+        describe('Pruebas de objetos', function(){
+            it('Prueba de la función suma', function(){
+                expect(suma(1,2)).toBe(3);
+            });
+            it('Prueba de la función resta', function(){
+                expect(resta(2,1)).toBe(1);
+            });
+            it('Prueba de la función multiplicación', function(){
+                expect(multiplicacion(2,3)).toBe(6);
+            });
+            it('Prueba de la función división', function(){
+                expect(division(6,3)).toBe(2);
+            });
+        });
+    </script>
+    
+</body>
+</html>

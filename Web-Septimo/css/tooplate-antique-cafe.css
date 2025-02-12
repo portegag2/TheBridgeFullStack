@@ -164,3 +164,9 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
         margin-bottom: 10px;
     }
 }
+
+
+/* Estilo para la tilde */
+h1 .tilde {
+    color: #264653 var(--accent-tilde);
+}

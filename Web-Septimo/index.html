@@ -12,6 +12,7 @@
     <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/tailwind.css">
     <link rel="stylesheet" href="css/tooplate-antique-cafe.css">
+    <link rel="stylesheet" href="css/septimo.css">
     
 <!--
 
@@ -23,14 +24,16 @@ https://www.tooplate.com/view/2126-antique-cafe
 </head>
 <body>    
     <!-- Intro -->
-    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-01.jpg">
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/panoramicaSemiciclo.png">
         <nav id="tm-nav" class="fixed w-full">
             <div class="tm-container mx-auto px-2 md:py-6 text-right">
                 <button class="md:hidden py-2 px-2" id="menu-toggle"><i class="fas fa-2x fa-bars tm-text-gold"></i></button>
                 <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
-                    <li class="inline-block mb-4 mx-4"><a href="#intro" class="tm-text-gold py-1 md:py-3 px-4">Intro</a></li>
-                    <li class="inline-block mb-4 mx-4"><a href="#menu" class="tm-text-gold py-1 md:py-3 px-4">Menu</a></li>
-                    <li class="inline-block mb-4 mx-4"><a href="#about" class="tm-text-gold py-1 md:py-3 px-4">About</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#intro" class="tm-text-gold py-1 md:py-3 px-4">Inicio</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#pintxos" class="tm-text-gold py-1 md:py-3 px-4">Pintxos</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#menu" class="tm-text-gold py-1 md:py-3 px-4">Menú del día</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#catering" class="tm-text-gold py-1 md:py-3 px-4">Catering</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#about" class="tm-text-gold py-1 md:py-3 px-4">Sobre Nosotros</a></li>
                     <li class="inline-block mb-4 mx-4"><a href="#contact" class="tm-text-gold py-1 md:py-3 px-4">Contact</a></li>
                 </ul>
             </div>            
@@ -38,13 +41,13 @@ https://www.tooplate.com/view/2126-antique-cafe
         <div class="container mx-auto px-2 tm-intro-width">
             <div class="sm:pb-60 sm:pt-48 py-20">
                 <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
-                    <h1 class="text-white text-5xl tm-logo-font mb-5">Antique Cafe</h1>
-                    <p class="tm-text-gold tm-text-2xl">your daily energy booster</p>
+                    <!--<h1 class="text-white text-5xl tm-logo-font mb-5">@S.<span class="tilde">é</span>.p.t.i.m.o</h1>-->
+                    <h1 class="text-white text-5xl tm-logo-font mb-5 septimo"><span class="arroba">@</span>S.<span class="tilde">é</span>.p.t.i.m.o<span class="arroba">.</span></h1>
+                    <p class="tm-text-gold tm-text-2xl">Sabor y creatividad en cada bocado</p>
                 </div>    
                 <div class="bg-black bg-opacity-70 p-10 mb-5">
                     <p class="text-white leading-8 text-sm font-light">
-                        This is a coffee shop template named Antique Cafe which is a parallax HTML5 template with a good responsiveness.
-                        Feel free to use this layout for your cafe.
+                        Bienvenidos a nuestro espacio culinario, donde la pasión por la buena comida y el ambiente de trabajo se fusionan. Ofrecemos una variedad de platos frescos y saludables, preparados con ingredientes de la más alta calidad. Desde desayunos energéticos hasta almuerzos nutritivos, nuestro menú está diseñado para satisfacer todos tus antojos y necesidades dietéticas. Ven y descubre un oasis culinario donde puedes disfrutar de una comida deliciosa mientras potencias tu productividad con las vistas panorámicas y un par de terrazas para que disfrutes de tus comidas al aire libre.
                     	If you have any question, please <a rel="nofollow" href="https://www.tooplate.com/contact" target="_parent">send us a message</a>. </p>
                 </div>
                 <div class="text-center">
@@ -59,78 +62,68 @@ https://www.tooplate.com/view/2126-antique-cafe
         </div>        
     </div>
     <!-- Cafe Menu -->
-    <div id="menu" class="parallax-window" data-parallax="scroll" data-image-src="img/antique-cafe-bg-02.jpg">
+    <div id="menu" class="parallax-window" data-parallax="scroll" data-image-src="img/menuDelDia/albondigasFondo.jpg">
+            
         <div class="container mx-auto tm-container py-24 sm:py-48">
-            <div class="text-center mb-16">
-                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Our Cafe Menu</h2>
-            </div>            
+            <div class="sm:py-10 py-20 tm-intro-width mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">Menú del día</h2>
+                </div>
+            </div>
             <div class="flex flex-col lg:flex-row justify-around items-center">
                 <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
                     <div class="flex items-start mb-6 tm-menu-item">
-                        <img src="img/menu-item-1.jpg" alt="Image" class="rounded-md">
-                        <div class="ml-3 sm:ml-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Cappuccino</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">S $8.50</div>
-                            <div class="text-white text-md sm:text-lg font-light">L $10.50</div>
-                        </div>                    
+                        <p class="text-white leading-8 text-sm font-light">
+                            Cada jornada te sorprenderemos con sabores nuevos y deliciosos. Nuestro menú cambia diariamente, y todas las semanas renovamos por completo nuestras opciones para ofrecerte variedad y frescura.</p>                        
                     </div>
-                    <div class="flex items-start mb-6 tm-menu-item">
-                        <img src="img/menu-item-2.jpg" alt="Image" class="rounded-md">
-                        <div class="ml-3 sm:ml-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Americano</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">S $9.50 . BG #544639</div>
-                            <div class="text-white text-md sm:text-lg font-light">L $12.50</div>
-                        </div>                    
-                    </div>
-                    <div class="flex items-start mb-6 tm-menu-item">
-                        <img src="img/menu-item-3.jpg" alt="Image" class="rounded-md">
-                        <div class="ml-3 sm:ml-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Latte #FC6</h3>
-                            <div class="text-white text-md sm:text-lg font-light mb-1">M $11.75</div>
-                            <div class="text-white text-md sm:text-lg font-light">L $14.75</div>
-                        </div>                    
-                    </div>
-                    <div class="flex items-start mb-6 tm-menu-item">
-                        <img src="img/menu-item-4.jpg" alt="Image" class="rounded-md">
-                        <div class="ml-3 sm:ml-6">
-                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Hot Espresso</h3>
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Hot Chocolate</h3>
-                            <div class="text-white text-md sm:text-lg font-light">Size M $11.75 . L $14.75</div>
+                    <div class="text-center">
+                        <div class="inline-block">
+                            <a href="/menu.html" class="flex justify-center items-center bg-white bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition">
+                                <i class="fas fa-coffee mr-3"></i>
+                                <span>Let's explore...</span>                        
+                            </a>
                         </div>                    
                     </div>
                 </div>
                 <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container">
                     <div class="flex items-start justify-end mb-6 tm-menu-item-2">
                         <div class="text-right mr-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Cappuccino</h3>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Ensaladas</h3>
                             <div class="text-white text-md sm:text-lg font-light mb-1">Small $10</div>
                             <div class="text-white text-md sm:text-lg font-light">Large $15</div>
                         </div>
-                        <img src="img/menu-item-5.jpg" alt="Image" class="rounded-md">                   
+                        <div class="img-producto">
+                            <img src="img/ensaladas/IMG-20250116-WA0020.thumb.jpg" alt="Image" class="rounded-md">
+                        </div>               
                     </div>
                     <div class="flex items-start justify-end mb-6 tm-menu-item-2">
                         <div class="text-right mr-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Americano</h3>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Cremas</h3>
                             <div class="text-white text-md sm:text-lg font-light mb-1">Small $12.50</div>
                             <div class="text-white text-md sm:text-lg font-light">Large $16.50</div>
                         </div>
-                        <img src="img/menu-item-6.jpg" alt="Image" class="rounded-md">                    
+                        <div class="img-producto">
+                            <img src="img/ReferenciasExternas/cream_soup_bowl-915425.jpg" alt="Image" class="rounded-md">                    
+                        </div>
                     </div>
                     <div class="flex items-start justify-end mb-6 tm-menu-item-2">
                         <div class="text-right mr-6">
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Milky Latte</h3>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Plato del dia</h3>
                             <div class="text-white text-md sm:text-lg font-light mb-1">Small $14</div>
                             <div class="text-white text-md sm:text-lg font-light">Large $18</div>
                         </div>   
-                        <img src="img/menu-item-7.jpg" alt="Image" class="rounded-md">                 
+                        <div class="img-producto">
+                            <img src="img/menuDelDia/mejorado_pescado.thumb.JPG" alt="Image" class="rounded-md">                 
+                        </div>
                     </div>
                     <div class="flex items-start justify-end mb-6 tm-menu-item-2">                    
                         <div class="text-right mr-6">
-                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Iced Espresso</h3>
-                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Iced Mocha</h3>
+                            <h3 class="text-lg sm:text-xl tm-text-yellow mb-1">Postres</h3>
                             <div class="text-white text-md sm:text-lg font-light">Small $10 . Large $15</div>
                         </div> 
-                        <img src="img/menu-item-8.jpg" alt="Image" class="rounded-md">                   
+                        <div class="img-producto">
+                            <img src="img/dulcesPostres/IMG-20250114-WA0042.jpg" alt="Image" class="rounded-md">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -195,9 +188,9 @@ https://www.tooplate.com/view/2126-antique-cafe
         </div>        
     </div>    
 
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/jquery.singlePageNav.js"></script>
     <script>
 
         function checkAndShowHideMenu() {
